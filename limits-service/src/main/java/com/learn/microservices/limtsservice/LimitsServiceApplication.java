@@ -7,10 +7,10 @@ import org.springframework.boot.context.properties.EnableConfigurationProperties
 
 @SpringBootApplication
 @EnableConfigurationProperties({LimitsConfig.class})
-public class LimtsServiceApplication {
+public class LimitsServiceApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(LimtsServiceApplication.class, args);
+		SpringApplication.run(LimitsServiceApplication.class, args);
 	}
 
 }
